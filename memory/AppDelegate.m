@@ -8,13 +8,8 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
-#import "TestViewController.h"
+#import "CardViewController.h"
 
-@interface AppDelegate ()
-
-@property (nonatomic, strong) TestViewController *testController;
-@end
 @implementation AppDelegate
 
 - (void)dealloc
@@ -31,10 +26,14 @@
     //self.testController=[[TestViewController alloc] initWithNibName:nil bundle:nil];
     //[self.window addSubview:self.testController.view];
     //self.window.rootViewController=self.testController;
-    self.viewController = [[ViewController alloc] initWithNibName:nil bundle:nil];
-    [self.window addSubview:self.viewController.view];
-    self.window.rootViewController = self.viewController;
+    
+    CardViewController * cardViewController; //class type, *, variable
+    
+    cardViewController = [[CardViewController alloc] initWithNibName:@"CardViewController" bundle:[NSBundle mainBundle]];
+    [self.window setRootViewController:cardViewController];
+    [cardViewController release]; //releases object
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

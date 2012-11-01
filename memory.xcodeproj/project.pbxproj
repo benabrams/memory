@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F54C55ED1639AE3A00453DD9 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54C55EB1639AE3A00453DD9 /* CardViewController.m */; };
+		F54C55EE1639AE3A00453DD9 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54C55EC1639AE3A00453DD9 /* CardViewController.xib */; };
+		F54C55F21639AFED00453DD9 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = F54C55F11639AFED00453DD9 /* Card.m */; };
 		F57E381016373C5A009E8E7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E380F16373C5A009E8E7D /* UIKit.framework */; };
 		F57E381216373C5A009E8E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E381116373C5A009E8E7D /* Foundation.framework */; };
 		F57E381416373C5A009E8E7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F57E381316373C5A009E8E7D /* CoreGraphics.framework */; };
@@ -16,8 +19,6 @@
 		F57E382216373C5A009E8E7D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F57E382116373C5A009E8E7D /* Default.png */; };
 		F57E382416373C5A009E8E7D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F57E382316373C5A009E8E7D /* Default@2x.png */; };
 		F57E382616373C5A009E8E7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F57E382516373C5A009E8E7D /* Default-568h@2x.png */; };
-		F57E382916373C5A009E8E7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E382816373C5A009E8E7D /* ViewController.m */; };
-		F57E382C16373C5A009E8E7D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E382A16373C5A009E8E7D /* ViewController.xib */; };
 		F57E383916374497009E8E7D /* feline1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57E383216374497009E8E7D /* feline1.jpg */; };
 		F57E383A16374497009E8E7D /* feline2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57E383316374497009E8E7D /* feline2.jpg */; };
 		F57E383B16374497009E8E7D /* feline3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57E383416374497009E8E7D /* feline3.jpg */; };
@@ -25,12 +26,14 @@
 		F57E383D16374497009E8E7D /* feline5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57E383616374497009E8E7D /* feline5.jpg */; };
 		F57E383E16374497009E8E7D /* feline6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57E383716374497009E8E7D /* feline6.jpg */; };
 		F57E383F16374497009E8E7D /* cards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57E383816374497009E8E7D /* cards.jpg */; };
-		F57E384616375085009E8E7D /* CardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E384516375085009E8E7D /* CardClass.m */; };
-		F57E384A1637577B009E8E7D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E38481637577B009E8E7D /* TestViewController.m */; };
-		F57E384B1637577B009E8E7D /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E38491637577B009E8E7D /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F54C55EA1639AE3A00453DD9 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		F54C55EB1639AE3A00453DD9 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		F54C55EC1639AE3A00453DD9 /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		F54C55F01639AFED00453DD9 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		F54C55F11639AFED00453DD9 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		F57E380B16373C5A009E8E7D /* memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57E380F16373C5A009E8E7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F57E381116373C5A009E8E7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,9 +47,6 @@
 		F57E382116373C5A009E8E7D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F57E382316373C5A009E8E7D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F57E382516373C5A009E8E7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F57E382716373C5A009E8E7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F57E382816373C5A009E8E7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F57E382B16373C5A009E8E7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		F57E383216374497009E8E7D /* feline1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = feline1.jpg; path = ../../feline1.jpg; sourceTree = "<group>"; };
 		F57E383316374497009E8E7D /* feline2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = feline2.jpg; path = ../../feline2.jpg; sourceTree = "<group>"; };
 		F57E383416374497009E8E7D /* feline3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = feline3.jpg; path = ../../feline3.jpg; sourceTree = "<group>"; };
@@ -54,11 +54,6 @@
 		F57E383616374497009E8E7D /* feline5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = feline5.jpg; path = ../../feline5.jpg; sourceTree = "<group>"; };
 		F57E383716374497009E8E7D /* feline6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = feline6.jpg; path = ../../feline6.jpg; sourceTree = "<group>"; };
 		F57E383816374497009E8E7D /* cards.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cards.jpg; path = ../../cards.jpg; sourceTree = "<group>"; };
-		F57E384416375085009E8E7D /* CardClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardClass.h; sourceTree = "<group>"; };
-		F57E384516375085009E8E7D /* CardClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardClass.m; sourceTree = "<group>"; };
-		F57E38471637577B009E8E7D /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		F57E38481637577B009E8E7D /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		F57E38491637577B009E8E7D /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,16 +100,13 @@
 		F57E381516373C5A009E8E7D /* memory */ = {
 			isa = PBXGroup;
 			children = (
+				F54C55F01639AFED00453DD9 /* Card.h */,
+				F54C55F11639AFED00453DD9 /* Card.m */,
 				F57E381E16373C5A009E8E7D /* AppDelegate.h */,
 				F57E381F16373C5A009E8E7D /* AppDelegate.m */,
-				F57E38471637577B009E8E7D /* TestViewController.h */,
-				F57E38481637577B009E8E7D /* TestViewController.m */,
-				F57E38491637577B009E8E7D /* TestViewController.xib */,
-				F57E382716373C5A009E8E7D /* ViewController.h */,
-				F57E382816373C5A009E8E7D /* ViewController.m */,
-				F57E382A16373C5A009E8E7D /* ViewController.xib */,
-				F57E384416375085009E8E7D /* CardClass.h */,
-				F57E384516375085009E8E7D /* CardClass.m */,
+				F54C55EA1639AE3A00453DD9 /* CardViewController.h */,
+				F54C55EB1639AE3A00453DD9 /* CardViewController.m */,
+				F54C55EC1639AE3A00453DD9 /* CardViewController.xib */,
 				F57E383216374497009E8E7D /* feline1.jpg */,
 				F57E383316374497009E8E7D /* feline2.jpg */,
 				F57E383416374497009E8E7D /* feline3.jpg */,
@@ -196,7 +188,6 @@
 				F57E382216373C5A009E8E7D /* Default.png in Resources */,
 				F57E382416373C5A009E8E7D /* Default@2x.png in Resources */,
 				F57E382616373C5A009E8E7D /* Default-568h@2x.png in Resources */,
-				F57E382C16373C5A009E8E7D /* ViewController.xib in Resources */,
 				F57E383916374497009E8E7D /* feline1.jpg in Resources */,
 				F57E383A16374497009E8E7D /* feline2.jpg in Resources */,
 				F57E383B16374497009E8E7D /* feline3.jpg in Resources */,
@@ -204,7 +195,7 @@
 				F57E383D16374497009E8E7D /* feline5.jpg in Resources */,
 				F57E383E16374497009E8E7D /* feline6.jpg in Resources */,
 				F57E383F16374497009E8E7D /* cards.jpg in Resources */,
-				F57E384B1637577B009E8E7D /* TestViewController.xib in Resources */,
+				F54C55EE1639AE3A00453DD9 /* CardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,9 +208,8 @@
 			files = (
 				F57E381C16373C5A009E8E7D /* main.m in Sources */,
 				F57E382016373C5A009E8E7D /* AppDelegate.m in Sources */,
-				F57E382916373C5A009E8E7D /* ViewController.m in Sources */,
-				F57E384616375085009E8E7D /* CardClass.m in Sources */,
-				F57E384A1637577B009E8E7D /* TestViewController.m in Sources */,
+				F54C55ED1639AE3A00453DD9 /* CardViewController.m in Sources */,
+				F54C55F21639AFED00453DD9 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,14 +222,6 @@
 				F57E381916373C5A009E8E7D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F57E382A16373C5A009E8E7D /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F57E382B16373C5A009E8E7D /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -334,6 +316,7 @@
 				F57E383116373C5A009E8E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -28,13 +28,12 @@
 }
 */
 
--(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event //method signature
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event //method signature
 {
-    
-        UITouch* touch = [touches anyObject];
-        CGPoint touchLocation = [touch locationInView:self.superview];
-        [self setHighlighted:true];
-        [self setUserInteractionEnabled:false];
+    NSLog(@"test");
+//    NSLog(@"touch test");
+//    [self setHighlighted:true];
+//    [self setUserInteractionEnabled:false];
 }
 
 

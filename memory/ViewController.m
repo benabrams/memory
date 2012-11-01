@@ -7,20 +7,20 @@
 //
 
 #import "ViewController.h"
-#import "CardClass.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-@synthesize imageOne;
+//@synthesize imageOne;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        NSLog(@"init");
     }
     return self;
 }
